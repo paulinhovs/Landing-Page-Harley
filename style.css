@@ -126,3 +126,195 @@ main h2 {
 main h2 a {
     color: var(--h2-color);
 }
+
+/* footer */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+}
+
+footer .buttons--area {
+    display: flex;
+    justify-content: center;
+}
+
+footer .buttons--area a{
+    display: block;
+    width: 220px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+
+footer .btn--dark {
+    background-color: var(--btn-dark-bg);
+    color: var(--btn-dark-color);
+}
+
+footer .btn--ligth {
+    background-color: var(--btn-ligth-bg);
+    color: var(--btn-ligth-color);
+}
+
+footer .arrow--area {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 30px;
+}
+
+@keyframes arrow {
+    0% {
+        margin-top: 0px;
+    }
+    50% {
+        margin-top: 15px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+footer .arrow {
+    height: 15px;
+    animation-name: arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.banner-space {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url('images/photo-1481567758055-3e8a6e89ca58.jpg');
+}
+
+#historia {
+    display: flex;
+    margin: 0;
+    position: absolute;
+    margin-top: 240px;
+    height: 150px;
+    margin-left: 50px;
+    width: 40%;
+    font-size: 20px;
+    font-family: 'GothamBook', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.banner-space-mobile {
+    display: none;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url('images/air-intake-on-harley-davidson-wallpaper-500x667.jpg');
+}
+
+@media (min-width:350px) and (max-width: 450px) {
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        min-height: 200px;
+    }
+    
+    .logo {
+        background: rgba(0, 0, 0, 0.0);
+    }
+
+    .leftside {
+        margin-top: -120px;
+        cursor: pointer;
+    }
+
+    .middle {
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+        cursor: pointer;
+    }
+
+    .rigthside {
+        margin-top: -80px;
+        line-height: 20px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+   .info-space {
+       height: 180px;
+       width: 200px;
+       margin-top: 180px;
+       margin-left: 50px;
+   }
+
+   .banner-space {
+       display: none;
+   }
+
+   .banner-space-mobile {
+       display: block;
+   }
+
+   #historia {
+       font-size: 18px;
+       width: 80%;
+       height: 50px;
+       margin-top: 350px;
+       text-shadow: #000 2px 3px 2px;
+   }
+
+}
+
+@media (min-width:750px) and (max-width:800px) {
+
+    header {
+        width: 100%;
+       
+    }
+
+    .rigthside {
+        margin-left: -35px;
+    }
+
+    .info-space {
+        margin-top: -70px;
+        margin-left: 200px;
+    }
+}
+
+@media (min-width:350px) and (max-width:370px) {
+    
+    .info-space {
+        margin-top: 140px;
+    }
+
+    .middle {
+        font-size: 10px;
+    }
+
+    .rigthside {
+        font-size: 10px;
+    }
+
+    #historia {
+        font-size: 14px;
+        margin-top: 270px;
+        
+    }
+}
