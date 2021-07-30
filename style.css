@@ -246,6 +246,37 @@ footer .arrow {
     background-image: url('images/harley-davidson-xg750r-wallpaper-500x667.jpg');
 }
 
+.banner3-space {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url('images/510.webp');
+}
+
+#historia3 {
+    display: flex;
+    margin: 0;
+    position: absolute;
+    margin-top: 150px;
+    height: 150px;
+    margin-left: 50px;
+    width: 40%;
+    font-size: 15px;
+    font-family: 'GothamBook', Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: #dcdce2 2px 3px 2px;
+}
+
+
+.banner3-space-mobile {
+    display: none;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url('images/61215058db1957ebf8ddfa111305a4ae.jpg');
+}
+
+
 @media (min-width:350px) and (max-width: 450px) {
     
     header {
@@ -321,6 +352,23 @@ footer .arrow {
     width: 80%;
     height: 50px;
     margin-top: 290px;
+    text-shadow: #000 2px 3px 2px;
+   }
+
+   .banner3-space {
+    display: none;
+   }
+
+   .banner3-space-mobile {
+       display: block;
+   }
+
+   #historia3 {
+    font-size: 15px;
+    width: 80%;
+    height: 50px;
+    margin-top: 250px;
+    color: white;
     text-shadow: #000 2px 3px 2px;
    }
 
