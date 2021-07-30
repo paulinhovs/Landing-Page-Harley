@@ -276,6 +276,36 @@ footer .arrow {
     background-image: url('images/61215058db1957ebf8ddfa111305a4ae.jpg');
 }
 
+.banner4-space {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url('images/6876802277_293649e2d2_b.jpg');
+}
+
+#historia4 {
+    display: flex;
+    margin: 0;
+    position: absolute;
+    margin-top: 120px;
+    height: 150px;
+    margin-left: 50px;
+    width: 40%;
+    font-size: 15px;
+    font-family: 'GothamBook', Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: #dcdce2 2px 3px 2px;
+}
+
+
+.banner4-space-mobile {
+    display: none;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url('images/26ef0386d65ac154a99d9bf9f0f67968.png');
+}
+
 
 @media (min-width:350px) and (max-width: 450px) {
     
@@ -371,6 +401,23 @@ footer .arrow {
     color: white;
     text-shadow: #000 2px 3px 2px;
    }
+
+   .banner4-space {
+    display: none;
+   }
+
+   .banner4-space-mobile {
+       display: block;
+   }
+
+   #historia4 {
+    font-size: 15px;
+    width: 80%;
+    margin-top: 170px;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+   }
+
 
 }
 
