@@ -91,3 +91,38 @@ header .menu--icon div {
     height: 2px;
     background-color: var(--header-color);
 }
+
+main {
+    background-image: url('images/harleydavidson-fat-boy-2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+main .info {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-right: 200px;
+}
+
+main h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: normal;
+    color: var(--h1-color);
+}
+
+main h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'GothamBook', Helvetica, sans-serif;
+    color: var(--h2-color);
+}
+
+main h2 a {
+    color: var(--h2-color);
+}
