@@ -217,6 +217,35 @@ footer .arrow {
     background-image: url('images/air-intake-on-harley-davidson-wallpaper-500x667.jpg');
 }
 
+.banner2-space {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url('images/27-276966_harley-davidson-4k-hd.jpg');
+}
+
+#historia2 {
+    display: flex;
+    margin: 0;
+    position: absolute;
+    margin-top: 130px;
+    height: 150px;
+    margin-left: 50px;
+    width: 20%;
+    font-size: 15px;
+    font-family: 'GothamBook', Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+}
+
+.banner2-space-mobile {
+    display: none;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url('images/harley-davidson-xg750r-wallpaper-500x667.jpg');
+}
+
 @media (min-width:350px) and (max-width: 450px) {
     
     header {
@@ -277,6 +306,22 @@ footer .arrow {
        height: 50px;
        margin-top: 350px;
        text-shadow: #000 2px 3px 2px;
+   }
+
+   .banner2-space {
+       display: none;
+   }
+
+   .banner2-space-mobile {
+       display: block;
+   }
+
+   #historia2 {
+    font-size: 15px;
+    width: 80%;
+    height: 50px;
+    margin-top: 290px;
+    text-shadow: #000 2px 3px 2px;
    }
 
 }
