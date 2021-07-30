@@ -1,0 +1,93 @@
+/* FONTES */
+
+:root {
+    --header-color: #fefeff;
+    --h1-color:#fefeff;
+    --h2-color: #dcdce2;
+    --btn-dark-bg:rgba(23, 26, 32, 0.8);
+    --btn-ligth-bg: rgba(255, 255, 255, 0.65);
+    --btn-dark-color: #fff;
+    --btn-ligth-color: black;
+}
+
+@font-face {
+    font-family: GothamMedium;
+    src: url('fonts/GothamMedium.otf');
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url('fonts/GothamBookRegular.otf');
+}
+
+body {
+    font-family: 'GothamMedium', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+header ul, header li {
+    list-style: none;
+}
+
+header .logo {
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+header .middle ul {
+    display: flex;
+}
+
+header .middle li {
+    margin: 0 10px;
+
+}
+
+header .middle a {
+    text-decoration: none;
+    color: var(--header-color);
+    text-transform: uppercase;
+}
+
+header .rigthside ul {
+    display: flex;
+}
+
+header .rigthside li {
+    margin: 0 10px;
+}
+
+header .rigthside a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+
+header .menu--icon {
+    width: 18px;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    cursor: pointer;
+}
+
+header .menu--icon div {
+    height: 2px;
+    background-color: var(--header-color);
+}
