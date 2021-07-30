@@ -335,6 +335,36 @@ footer .arrow {
     background-image: url('images/e3cbbefaf83578a0388c4dddbc2dba27.jpg');
 }
 
+.banner6-space {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url('images/110881.jpg');
+}
+
+#historia6 {
+    display: flex;
+    margin: 0;
+    position: absolute;
+    margin-top: 180px;
+    height: 150px;
+    margin-left: 80px;
+    width: 40%;
+    font-size: 15px;
+    font-family: 'GothamBook', Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+}
+
+.banner6-space-mobile {
+    display: none;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url('images/9148208c35b4c317284b4ee2435577bc.jpg');
+}
+
+
 @media (min-width:350px) and (max-width: 450px) {
     
     header {
@@ -460,6 +490,23 @@ footer .arrow {
     width: 80%;
     margin-top: 260px;
     margin-left: 70px;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+   }
+
+   .banner6-space {
+    display: none;
+   }
+
+   .banner6-space-mobile {
+       display: block;
+   }
+
+   #historia6 {
+    font-size: 15px;
+    width: 80%;
+    margin-top: 260px;
+    margin-left: 20px;
     color: white;
     text-shadow: #000 2px 3px 2px;
    }
